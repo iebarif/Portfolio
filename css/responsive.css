@@ -1,0 +1,227 @@
+@media (min-width: 1400px) {
+  .collaps_btn{
+    display:none;
+  }
+
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .btn_box {
+    display: none;
+  }
+  .collaps_btn{
+    display:none;
+  }
+
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .menu {
+    /* display: none; */
+    /* align-items: last baseline; */
+  }
+  .collaps_btn{
+    display:none;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu {
+    display: none;
+  }
+  .collaps_btn{
+    display:none;
+  }
+
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .home{
+    background-size: cover;
+    background-position: center;
+    /* height: 100%; */
+  }
+
+  .home_content h1, h3 {
+    padding-top: 10px;
+    /* line-height: 50px; */
+    text-align: center;
+
+  }
+  .home_content p {
+    padding-top: 10px;
+    line-height: 20px;
+    text-align: center;
+
+  }
+  .collaps_btn{
+    display:block;
+  }
+  .navbar{
+    display: none;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  
+  .header{
+    position: relative;
+    position: fixed;
+  /* display: block; */
+}
+  
+  .home_imgHover{
+    display: none;
+  }
+  .home_content .btn_box{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+  }
+
+  .my_link{
+
+    column-gap: 100px;
+    width: 100%;
+    align-items: center;
+    /* text-align: center; */
+   padding-left: 15%;
+    
+}
+  
+  .menu {
+    display: none;
+    position: relative;
+  }
+  .home_content .btn_box{
+    text-align: center;
+    align-items: center;
+  }
+  .about_img {
+    display: block;
+    width: 75%;
+    height: 500px;
+    /* background-image: url(../MyPhoto.png); */
+    /* background-repeat: no-repeat; */
+    background-size: 70% auto, 100% auto;
+  }
+  /* .about_con h2 {
+    font-size: 18px;
+    color: #7371f9;
+  }
+  .about_con_main {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .about_con h3 {
+    font-size: 40px;
+    color: #222;
+  }
+  .about_con p {
+    color: #615879;
+    font-size: 20px;
+    box-sizing: border-box;
+  /* } */
+}
+/* @media (max-width: 575px) {
+  .collaps_btn{
+    display:block;
+  }
+  .navbar{
+    display: none;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+} */
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+  .home{
+    background-size: cover;
+    background-position: center;
+    /* height: 100%; */
+  }
+
+  .home_content h1, h3 {
+    padding-top: 10px;
+    /* line-height: 50px; */
+    text-align: center;
+
+  }
+  .home_content p {
+    padding-top: 10px;
+    line-height: 20px;
+    text-align: center;
+
+  }
+  .collaps_btn{
+    display:block;
+  }
+  .navbar{
+    display: none;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  
+  .header{
+    position: relative;
+    position: fixed;
+  /* display: block; */
+}
+  
+  .home_imgHover{
+    display: none;
+  }
+  .home_content .btn_box{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+  }
+
+  .my_link{
+
+    column-gap: 100px;
+    width: 100%;
+    align-items: center;
+    /* text-align: center;
+    
+}
+  
+  .menu {
+    display: none;
+    position: relative;
+  }
+  .home_content .btn_box{
+    text-align: center;
+    align-items: center;
+  }
+  .about_img {
+    display: block;
+    width: 75%;
+    height: 500px;
+    /* background-image: url(../MyPhoto.png); */
+    /* background-repeat: no-repeat; */
+    background-size: 70% auto, 100% auto;
+  }
+  /* .about_con h2 {
+    font-size: 18px;
+    color: #7371f9;
+  }
+  .about_con_main {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .about_con h3 {
+    font-size: 40px;
+    color: #222;
+  }
+  .about_con p {
+    color: #615879;
+    font-size: 20px;
+    box-sizing: border-box;
+  /* } */
+}
+
